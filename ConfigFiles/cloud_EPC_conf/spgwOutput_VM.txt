@@ -1,0 +1,113 @@
+203    Entering nwGtpv2cProcessUlpReq()
+001302 00055:187990 7FF140BC7700 DEBUG GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:1225      Received create local tunnel from ulp
+001303 00055:187992 7FF140BC7700 TRACE GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0686      Entering nwGtpv2cHandleUlpCreateLocalTunnel()
+001304 00055:187995 7FF140BC7700 DEBUG GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0687         Creating local tunnel with teid '0x5' and peer IP 0x10b007f
+001305 00055:187999 7FF140BC7700 TRACE GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0700      Leaving nwGtpv2cHandleUlpCreateLocalTunnel() (rc=0)
+001306 00055:188002 7FF140BC7700 TRACE GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:1243    Leaving nwGtpv2cProcessUlpReq() (rc=0)
+001307 00055:188030 7FF140BC7700 DEBUG GTPv2- /nwgtpv2c-0.11/src/NwGtpv2cMsg.c:0092    Created message 0x7ff138020890!
+001308 00055:188035 7FF140BC7700 TRACE GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:1203    Entering nwGtpv2cProcessUlpReq()
+001309 00055:188039 7FF140BC7700 DEBUG GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:1219      Received triggered response from ulp
+001310 00055:188042 7FF140BC7700 TRACE GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0652      Entering nwGtpv2cHandleUlpTriggeredRsp()
+001311 00055:188044 7FF140BC7700 DEBUG GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0659         Sending response message over seq '0x3158'
+001312 00055:188069 7FF140BC7700 TRACE GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:1390         Entering nwGtpv2cStartTimer()
+001313 00055:188072 7FF140BC7700 DEBUG GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:1437            Already Started timer 0x0 for info 0x0x7ff1380041c0!
+001314 00055:188074 7FF140BC7700 TRACE GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:1439         Leaving nwGtpv2cStartTimer() (rc=0)
+001315 00055:188077 7FF140BC7700 TRACE GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0668      Leaving nwGtpv2cHandleUlpTriggeredRsp() (rc=0)
+001316 00055:188079 7FF140BC7700 TRACE GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:1243    Leaving nwGtpv2cProcessUlpReq() (rc=0)
+001317 00055:188095 7FF1413C8700 DEBUG UDP    /src/udp/udp_primitives_server.c:0088    Looking for task 6
+001318 00055:188142 7FF1413C8700 DEBUG UDP    /src/udp/udp_primitives_server.c:0091    Found matching task desc
+001319 00055:188171 7FF1413C8700 DEBUG UDP    /src/udp/udp_primitives_server.c:0309    [31] Sending message of size 117 to 127.0.11.1 and port 2123
+001320 00055:188216 7FF1413C8700 DEBUG UDP    /src/udp/udp_primitives_server.c:0187    Received 1 events
+001321 00055:188246 7FF1337FE700 TRACE SPGW-A penair-cn/src/sgw/sgw_handlers.c:0331         Leaving sgw_handle_sgi_endpoint_created() (rc=0)
+001322 00055:188269 7FF1337FE700 TRACE SPGW-A penair-cn/src/sgw/sgw_handlers.c:0458      Leaving sgw_handle_gtpv1uCreateTunnelResp() (rc=0)
+001323 00055:188293 7FF1337FE700 TRACE SPGW-A penair-cn/src/sgw/sgw_handlers.c:0226    Leaving sgw_handle_create_session_request() (rc=0)
+001324 00055:295347 7FF1413C8700 DEBUG UDP    /src/udp/udp_primitives_server.c:0187    Received 1 events
+001325 00055:295358 7FF1413C8700 DEBUG UDP    /src/udp/udp_primitives_server.c:0105    Looking for sd 31
+001326 00055:295361 7FF1413C8700 DEBUG UDP    /src/udp/udp_primitives_server.c:0108    Found matching task desc
+001327 00055:295364 7FF1413C8700 DEBUG UDP    /src/udp/udp_primitives_server.c:0212    Inserting new descriptor for task 6, sd 31
+001328 00055:295371 7FF1413C8700 DEBUG UDP    /src/udp/udp_primitives_server.c:0239    Msg of length 146 received from 127.0.11.1:2123
+001329 00055:295382 7FF140BC7700 DEBUG S11    ntu/openair-cn/src/s11/s11_sgw.c:0180    Processing new data indication from UDP
+001330 00055:295385 7FF140BC7700 TRACE GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:1113    Entering nwGtpv2cProcessUdpReq()
+001331 00055:295389 7FF140BC7700 DEBUG GTPv2- nwgtpv2c-0.11/src/NwGtpv2cTrxn.c:0299      Created outstanding RX transaction 0x0x7ff138023e50
+001332 00055:295392 7FF140BC7700 DEBUG GTPv2- /nwgtpv2c-0.11/src/NwGtpv2cMsg.c:0134      Created message 0x7ff138023f60!
+001333 00055:295396 7FF140BC7700 DEBUG GTPv2- .11/src/NwGtpv2cMsgIeParseInfo.c:0665      Received IE 3 with instance 0 of length 1 in msg-type 32!
+001334 00055:295399 7FF140BC7700 DEBUG GTPv2- .11/src/NwGtpv2cMsgIeParseInfo.c:0665      Received IE 1 with instance 0 of length 8 in msg-type 32!
+001335 00055:295401 7FF140BC7700 DEBUG GTPv2- .11/src/NwGtpv2cMsgIeParseInfo.c:0665      Received IE 82 with instance 0 of length 1 in msg-type 32!
+001336 00055:295404 7FF140BC7700 DEBUG GTPv2- .11/src/NwGtpv2cMsgIeParseInfo.c:0665      Received IE 99 with instance 0 of length 1 in msg-type 32!
+001337 00055:295406 7FF140BC7700 DEBUG GTPv2- .11/src/NwGtpv2cMsgIeParseInfo.c:0665      Received IE 87 with instance 0 of length 9 in msg-type 32!
+001338 00055:295408 7FF140BC7700 DEBUG GTPv2- .11/src/NwGtpv2cMsgIeParseInfo.c:0665      Received IE 87 with instance 1 of length 5 in msg-type 32!
+001339 00055:295411 7FF140BC7700 ERROR GTPv2- .11/src/NwGtpv2cMsgIeParseInfo.c:0687      Mandatory IE of type 87 and instance 1 incorrect!
+001340 00055:295413 7FF140BC7700 WARNI GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0867      Malformed request message received on TEID 0 from peer 0x7f000b01. Notifying ULP.
+001341 00055:295416 7FF140BC7700 TRACE GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0740      Entering nwGtpv2cSendInitialReqIndToUlp()
+001342 00055:295418 7FF140BC7700 DEBUG S11    ntu/openair-cn/src/s11/s11_sgw.c:0057         Received initial req indication
+001343 00055:295441 7FF140BC7700 DEBUG GTPv2- v2c-0.11/src/NwGtpv2cMsgParser.c:0203         Received IE 3 of length 1!
+001344 00055:295445 7FF140BC7700 DEBUG S11    /openair-cn/src/s11/s11_common.c:0038         Received IE Parse Indication for of type 3, length 1, instance 0!
+001345 00055:295448 7FF140BC7700 DEBUG GTPv2- v2c-0.11/src/NwGtpv2cMsgParser.c:0203         Received IE 1 of length 8!
+001346 00055:295450 7FF140BC7700 DEBUG S11    ir-cn/src/s11/s11_ie_formatter.c:0073         	- IMSI length 16
+001347 00055:295453 7FF140BC7700 DEBUG S11    ir-cn/src/s11/s11_ie_formatter.c:0074         	-      value  2089300000000020
+001348 00055:295456 7FF140BC7700 DEBUG GTPv2- v2c-0.11/src/NwGtpv2cMsgParser.c:0203         Received IE 82 of length 1!
+001349 00055:295458 7FF140BC7700 DEBUG S11    ir-cn/src/s11/s11_ie_formatter.c:0328         	- RAT type (6): 1004
+001350 00055:295461 7FF140BC7700 DEBUG GTPv2- v2c-0.11/src/NwGtpv2cMsgParser.c:0203         Received IE 99 of length 1!
+001351 00055:295464 7FF140BC7700 DEBUG S11    ir-cn/src/s11/s11_ie_formatter.c:0247         	- PDN type 0
+001352 00055:295466 7FF140BC7700 DEBUG GTPv2- v2c-0.11/src/NwGtpv2cMsgParser.c:0203         Received IE 87 of length 9!
+001353 00055:295469 7FF140BC7700 DEBUG S11    ir-cn/src/s11/s11_ie_formatter.c:0875         	- F-TEID type 10
+001354 00055:295471 7FF140BC7700 DEBUG S11    ir-cn/src/s11/s11_ie_formatter.c:0880         	- TEID/GRE    40139920
+001355 00055:295474 7FF140BC7700 DEBUG S11    ir-cn/src/s11/s11_ie_formatter.c:0888         	- IPv4 addr   127.0.11.1
+001356 00055:295477 7FF140BC7700 DEBUG GTPv2- v2c-0.11/src/NwGtpv2cMsgParser.c:0203         Received IE 87 of length 5!
+001357 00055:295479 7FF140BC7700 DEBUG S11    ir-cn/src/s11/s11_ie_formatter.c:0875         	- F-TEID type 7
+001358 00055:295482 7FF140BC7700 DEBUG S11    ir-cn/src/s11/s11_ie_formatter.c:0880         	- TEID/GRE    00000000
+001359 00055:295484 7FF140BC7700 DEBUG GTPv2- v2c-0.11/src/NwGtpv2cMsgParser.c:0203         Received IE 71 of length 9!
+001360 00055:295487 7FF140BC7700 DEBUG S11    ir-cn/src/s11/s11_ie_formatter.c:1066         	- APN oai.ipv4
+001361 00055:295489 7FF140BC7700 DEBUG GTPv2- v2c-0.11/src/NwGtpv2cMsgParser.c:0203         Received IE 83 of length 3!
+001362 00055:295492 7FF140BC7700 DEBUG S11    ir-cn/src/s11/s11_ie_formatter.c:0786         	- Serving network 208.93
+001363 00055:295495 7FF140BC7700 DEBUG GTPv2- v2c-0.11/src/NwGtpv2cMsgParser.c:0203         Received IE 78 of length 26!
+001364 00055:295498 7FF140BC7700 DEBUG GTPv2- v2c-0.11/src/NwGtpv2cMsgParser.c:0203         Received IE 93 of length 31!
+001365 00055:295500 7FF140BC7700 DEBUG S11    ir-cn/src/s11/s11_ie_formatter.c:0404         	- EBI 5
+001366 00055:295504 7FF140BC7700 DEBUG GTPv2- /nwgtpv2c-0.11/src/NwGtpv2cMsg.c:0146         Purging message 7ff138023f60!
+001367 00055:295509 7FF140BC7700 TRACE GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0750      Leaving nwGtpv2cSendInitialReqIndToUlp() (rc=0)
+001368 00055:295512 7FF140BC7700 TRACE GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:1187    Leaving nwGtpv2cProcessUdpReq() (rc=0)
+001369 00055:295519 7FF1337FE700 TRACE SPGW-A penair-cn/src/sgw/sgw_handlers.c:0086    Entering sgw_handle_create_session_request()
+001370 00055:295529 7FF1337FE700 DEBUG SPGW-A penair-cn/src/sgw/sgw_handlers.c:0121      Rx CREATE-SESSION-REQUEST MME S11 teid 1075026208 S-GW S11 teid 6 APN oai.ipv4 EPS bearer Id 5
+001371 00055:295532 7FF1337FE700 DEBUG SPGW-A penair-cn/src/sgw/sgw_handlers.c:0122                                IMSI 208930000000002
+001372 00055:295537 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0342      sgw_cm_create_bearer_context_information_in_collection 6
+001373 00055:295546 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0368      Added new s_plus_p_gw_eps_bearer_context_information_t in s11_bearer_context_information_hashtable key teid 6
+001374 00055:295554 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0411      Inserted new EPS bearer entry for EPS bearer id 5 status HASH_TABLE_OK
+001375 00055:295557 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0102      |				5	<-> ebi: 5, enb_teid_for_S1u: 0, s_gw_teid_for_S1u_S12_S4_up: 0 (tbc)
+001376 00055:295561 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0081      +--------------------------------------+
+001377 00055:295563 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0082      | MME <--- S11 TE ID MAPPINGS ---> SGW |
+001378 00055:295565 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0083      +--------------------------------------+
+001379 00055:295567 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0068      | 1073817856	<------------->	1
+001380 00055:295570 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0068      | 1073861216	<------------->	2
+001381 00055:295573 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0068      | 1073804352	<------------->	3
+001382 00055:295575 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0068      | 1073806704	<------------->	4
+001383 00055:295578 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0068      | 1075023888	<------------->	5
+001384 00055:295580 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0068      | 1075026208	<------------->	6
+001385 00055:295583 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0085      +--------------------------------------+
+001386 00055:295585 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0157      +-----------------------------------------+
+001387 00055:295588 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0158      | S11 BEARER CONTEXT INFORMATION MAPPINGS |
+001388 00055:295590 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0159      +-----------------------------------------+
+001389 00055:295592 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0123      | KEY 1:      
+001390 00055:295594 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0124      |	sgw_eps_bearer_context_information:     |
+001391 00055:295596 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0126      |		imsi_unauthenticated_indicator:	1
+001392 00055:295599 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0128      |		mme_teid_    S11:              	1073817856
+001393 00055:295602 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0130      |		s_gw_teid_S11_S4:              	1
+001394 00055:295605 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0133      |		pdn_connection:
+001395 00055:295607 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0134      |			apn_in_use:        oai.ipv4
+001396 00055:295610 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0135      |			default_bearer:    5
+001397 00055:295612 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0136      |			eps_bearers:
+001398 00055:295615 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0102      |				5	<-> ebi: 5, enb_teid_for_S1u: 2369645879, s_gw_teid_for_S1u_S12_S4_up: 1 (tbc)
+001399 00055:295618 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0123      | KEY 2:      
+001400 00055:295621 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0124      |	sgw_eps_bearer_context_information:     |
+001401 00055:295623 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0126      |		imsi_unauthenticated_indicator:	1
+001402 00055:295628 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0128      |		mme_teid_    S11:              	1073861216
+001403 00055:295631 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0130      |		s_gw_teid_S11_S4:              	2
+001404 00055:295634 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0133      |		pdn_connection:
+001405 00055:295636 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0134      |			apn_in_use:        oai.ipv4
+001406 00055:295639 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0135      |			default_bearer:    5
+001407 00055:295642 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0136      |			eps_bearers:
+001408 00055:295645 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0102      |				5	<-> ebi: 5, enb_teid_for_S1u: 1885888750, s_gw_teid_for_S1u_S12_S4_up: 2 (tbc)
+001409 00055:295648 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0123      | KEY 3:      
+001410 00055:295650 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0124      |	sgw_eps_bearer_context_information:     |
+001411 00055:295652 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0126      |		imsi_unauthenticated_indicator:	1
+001412 00055:295655 7FF1337FE700 DEBUG SPGW-A cn/src/sgw/sgw_context_manager.c:0128      |		mme_teid_    S11:              	1073804352
+
